@@ -27,37 +27,37 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <25 12>;
+            key-positions = <24 25>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <26 12>;
+            key-positions = <24 26>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <27 12>;
+            key-positions = <27 24>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <28 12>;
+            key-positions = <24 28>;
         };
 
         find {
             bindings = <&kt LC(F)>;
-            key-positions = <16 12>;
+            key-positions = <24 29>;
         };
 
         newtab {
             bindings = <&kt LC(T)>;
-            key-positions = <5 12>;
+            key-positions = <5 24>;
         };
 
         bold {
             bindings = <&kp LC(B)>;
-            key-positions = <24 29>;
+            key-positions = <29 24>;
         };
     };
 
