@@ -62,10 +62,10 @@
 
         layer_4 {
             bindings = <
-&trans            &trans         &trans        &trans         &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp C_AC_REDO  &trans        &kp K_FIND2    &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp C_AC_UNDO  &kp C_AC_CUT  &kp C_AC_COPY  &kp K_PASTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                               &trans         &trans       &trans  &trans  &trans  &trans
+&trans            &trans      &trans     &trans       &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp K_REDO  &trans     &kp K_FIND2  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp K_UNDO  &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans       &trans       &trans  &trans  &trans  &trans
             >;
         };
     };
