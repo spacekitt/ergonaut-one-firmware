@@ -26,10 +26,10 @@
 
         default_layer {
             bindings = <
-&mt LGUI RBKT           &kp SQT                      &kp COMMA       &kp PERIOD       &kp P             &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &kp SLASH
-&mt LEFT_ALT GRAVE      &kp A                        &kp O           &kp E            &mt C_AC_FIND U   &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt MINUS MINUS
-&mt LEFT_CONTROL MINUS  &mt LC(C_AC_UNDO) SEMICOLON  &mt C_AC_CUT Q  &mt C_AC_COPY J  &mt C_AC_PASTE K  &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RALT BSLH
-                                                                     &lt 2 TAB        &mt LSHFT SPACE   &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
+&mt LGUI RBKT       &kp SQT                      &kp COMMA       &kp PERIOD       &kp P             &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &kp SLASH
+&mt LEFT_ALT GRAVE  &kp A                        &kp O           &kp E            &mt C_AC_FIND U   &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt MINUS MINUS
+&lt 4 MINUS         &mt LC(C_AC_UNDO) SEMICOLON  &mt C_AC_CUT Q  &mt C_AC_COPY J  &mt C_AC_PASTE K  &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RALT BSLH
+                                                                 &lt 2 TAB        &mt LSHFT SPACE   &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
@@ -57,6 +57,15 @@
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
                                          &trans        &none         &trans        &none         &trans        &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
