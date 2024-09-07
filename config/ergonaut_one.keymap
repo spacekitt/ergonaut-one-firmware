@@ -18,7 +18,7 @@
 
         tri-layer {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <4>;
         };
     };
 
@@ -66,10 +66,10 @@
 
         default_layer {
             bindings = <
-&mt LGUI MINUS             &kp SQT        &kp COMMA  &kp PERIOD  &kp P      &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &kp SLASH
-&mt RIGHT_CONTROL GRAVE    &kp A          &kp O      &kp E       &kp U      &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt RIGHT_CONTROL MINUS
-&mt LEFT_ALT LEFT_BRACKET  &kp SEMICOLON  &kp Q      &kp J       &kp K      &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RIGHT_ALT RIGHT_BRACKET
-                                                     &lt 2 TAB   &kp SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
+&mt LGUI MINUS             &kp SQT        &kp COMMA  &kp PERIOD  &kp P        &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &kp SLASH
+&mt RIGHT_CONTROL GRAVE    &kp A          &kp O      &kp E       &kp U        &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt RIGHT_CONTROL MINUS
+&mt LEFT_ALT LEFT_BRACKET  &kp SEMICOLON  &kp Q      &kp J       &kp K        &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RIGHT_ALT RIGHT_BRACKET
+                                                     &lt 2 TAB   &lt 3 SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
@@ -88,6 +88,15 @@
 &mt LCTRL EQUAL           &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW   &kp RIGHT  &kp INS          &mt RCTRL K_APP
 &mt LEFT_SHIFT BACKSPACE  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp PRINTSCREEN  &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
                                                       &trans     &trans     &trans        &trans        &trans    &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &kp LEFT_CONTROL  &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans          &trans           &trans  &trans  &trans  &trans
             >;
         };
 
