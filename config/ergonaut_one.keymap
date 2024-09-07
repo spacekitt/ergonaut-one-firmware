@@ -91,7 +91,7 @@
             >;
         };
 
-        layer_4 {
+        leftnav {
             bindings = <
 &trans  &kp LEFT_CONTROL  &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT_SHIFT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans  &trans  &trans  &trans
