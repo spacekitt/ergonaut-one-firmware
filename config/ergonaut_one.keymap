@@ -66,7 +66,7 @@
 
         default_layer {
             bindings = <
-&mo 2                      &kp SQT        &kp COMMA  &kp PERIOD  &kp P        &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &mt SLASH SLASH
+&tog 2                     &kp SQT        &kp COMMA  &kp PERIOD  &kp P        &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &mt SLASH SLASH
 &mt RIGHT_CONTROL GRAVE    &kp A          &kp O      &kp E       &kp U        &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt LEFT_WIN MINUS
 &mt LEFT_ALT LEFT_BRACKET  &kp SEMICOLON  &kp Q      &kp J       &kp K        &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RIGHT_ALT RIGHT_BRACKET
                                                      &lt 2 TAB   &lt 3 SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
@@ -84,7 +84,7 @@
 
         raise_layer {
             bindings = <
-&mo 0                     &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp UP_ARROW     &kp PG_UP  &kp SLCK         &kp CLCK
+&tog 0                    &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp UP_ARROW     &kp PG_UP  &kp SLCK         &kp CLCK
 &mt LCTRL EQUAL           &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp DOWN_ARROW   &kp RIGHT  &kp INS          &mt RCTRL K_APP
 &mt LEFT_SHIFT BACKSPACE  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp PRINTSCREEN  &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
                                                       &trans     &trans     &trans        &trans        &trans    &trans
