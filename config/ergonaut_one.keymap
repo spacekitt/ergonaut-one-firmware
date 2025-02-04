@@ -27,37 +27,37 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <24 25>;
+            key-positions = <37 25>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <24 26>;
+            key-positions = <26 37>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <27 24>;
+            key-positions = <27 37>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <24 28>;
+            key-positions = <28 37>;
         };
 
         find {
             bindings = <&kt LC(F)>;
-            key-positions = <24 29>;
+            key-positions = <37 17>;
         };
 
         newtab {
             bindings = <&kt LC(T)>;
-            key-positions = <5 24>;
+            key-positions = <5 37>;
         };
 
         bold {
             bindings = <&kp LC(B)>;
-            key-positions = <29 24>;
+            key-positions = <29 37>;
         };
     };
 
@@ -66,10 +66,10 @@
 
         default_layer {
             bindings = <
-&to 2                      &kp SQT        &kp COMMA  &kp PERIOD  &kp P                   &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &mt SLASH SLASH
-&mt RIGHT_CONTROL GRAVE    &kp A          &kp O      &kp E       &kp U                   &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt LEFT_WIN MINUS
-&mt LEFT_ALT LEFT_BRACKET  &kp SEMICOLON  &kp Q      &kp J       &kp K                   &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RIGHT_ALT RIGHT_BRACKET
-                                                     &lt 2 TAB   &mt LEFT_CONTROL SPACE  &lt 3 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
+&to 2                      &kp SQT        &kp COMMA  &kp PERIOD  &kp P        &kp Y      &kp F      &kp G           &kp C      &kp R  &kp L  &mt SLASH SLASH
+&mt RIGHT_CONTROL GRAVE    &kp A          &kp O      &kp E       &kp U        &kp I      &kp D      &kp H           &kp T      &kp N  &kp S  &mt LEFT_WIN MINUS
+&mt LEFT_ALT LEFT_BRACKET  &kp SEMICOLON  &kp Q      &kp J       &kp K        &kp X      &kp B      &kp M           &kp W      &kp V  &kp Z  &mt RIGHT_ALT RIGHT_BRACKET
+                                                     &lt 2 TAB   &lt 3 SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
