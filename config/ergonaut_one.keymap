@@ -27,22 +27,22 @@
 
         undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <37 25>;
+            key-positions = <37 13>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <37 27>;
+            key-positions = <37 14>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <37 28>;
+            key-positions = <37 15>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <37 29>;
+            key-positions = <37 16>;
         };
 
         find {
@@ -52,7 +52,7 @@
 
         newtab {
             bindings = <&kt LC(T)>;
-            key-positions = <5 37>;
+            key-positions = <37 4>;
         };
     };
 
